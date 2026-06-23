@@ -390,6 +390,7 @@ public class Grid : MonoBehaviour
     private IEnumerator SwapPiecesRoutine(GamePiece piece1, GamePiece piece2)
     {
         isSwapping = true;
+        AudioManager.Play("piece_swap");
 
         int piece1X = piece1.X;
         int piece1Y = piece1.Y;
@@ -417,6 +418,8 @@ public class Grid : MonoBehaviour
         }
         else
         {
+            AudioManager.Play("piece_swap_invalid");
+
             pieces[piece1X, piece1Y] = piece1;
             pieces[piece2X, piece2Y] = piece2;
 
@@ -606,10 +609,12 @@ public class Grid : MonoBehaviour
         {
             piece.IceComponent.Crack();
             crackedThisPass.Add(piece);
+            AudioManager.Play("ice_crack");
             return false;
         }
 
         piece.ClearableComponent.Clear();
+        AudioManager.Play("piece_match");
         SpawnNewPiece(x, y, PieceType.EMPTY);
 
         return true;

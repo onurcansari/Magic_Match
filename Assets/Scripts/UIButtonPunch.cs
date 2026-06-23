@@ -17,6 +17,7 @@ public class UIButtonPunch : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
 
     public void OnPointerDown(PointerEventData eventData)
     {
+        AudioManager.Play("button_click");
         StartPunch(originalScale * pressedScale);
     }
 

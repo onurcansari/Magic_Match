@@ -82,6 +82,7 @@ public class LevelSelect : MonoBehaviour
         AdsManager.ShowRewardedAd(
             onRewardEarned: () =>
             {
+                AudioManager.Play("level_unlock");
                 PlayerPrefs.SetInt("Level" + previousLevelKey, 1);
                 RebuildButtons();
             },

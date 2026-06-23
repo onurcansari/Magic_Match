@@ -37,6 +37,8 @@ public class GameOver : MonoBehaviour
 
     public void ShowLose(int score)
     {
+        AudioManager.Play("level_lose");
+
         screenParent.SetActive(true);
         scoreParent.SetActive(false);
 
@@ -57,6 +59,8 @@ public class GameOver : MonoBehaviour
 
     public void ShowWin(int score, int starCount)
     {
+        AudioManager.Play("level_win");
+
         screenParent.SetActive(true);
         loseText.enabled = false;
 
@@ -129,6 +133,7 @@ public class GameOver : MonoBehaviour
         AdsManager.ShowRewardedAd(
             onRewardEarned: () =>
             {
+                AudioManager.Play("bonus_moves");
                 level.AddBonusMoves(5);
                 level.ResumeAfterBonus();
                 screenParent.SetActive(false);

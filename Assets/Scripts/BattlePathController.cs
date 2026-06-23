@@ -162,6 +162,7 @@ public class BattlePathController : MonoBehaviour
             int damage = Mathf.Min(power, currentHP[currentNodeIndex]);
             currentHP[currentNodeIndex] -= damage;
             power -= damage;
+            AudioManager.Play("battle_hit");
 
             if (powerText)
             {
@@ -174,6 +175,8 @@ public class BattlePathController : MonoBehaviour
 
             if (currentHP[currentNodeIndex] <= 0)
             {
+                AudioManager.Play("battle_node_clear");
+
                 if (currentNodeIndex < nodeCount - 1)
                 {
                     currentNodeIndex++;

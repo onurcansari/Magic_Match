@@ -77,6 +77,11 @@ public class Hud : MonoBehaviour
             }
         }
 
+        if (visibleStar > starIdx)
+        {
+            AudioManager.Play("star_earned");
+        }
+
         starIdx = visibleStar;
     }
 
