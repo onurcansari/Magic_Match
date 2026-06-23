@@ -1,12 +1,8 @@
 # Match3 Game in Unity
 
-![Match3gif](/GameDemo/Match3.gif)
 
 Unity (6000.3.11f1) ile geliştirilmiş, fantastik temalı bir **Match-3** bulmaca oyunu. Klasik "hamle sınırlı / hedef skor" seviyelerinin yanında, düşman düğümlerini güç biriktirerek aşındırdığınız bir **Battle Path** (sefer haritası) modu içerir. Proje; grid tabanlı oyun tahtası, kalıtım üzerine kurulu farklı taş tipleri (renkli, donmuş, engelli), kademeli (cascade) skor sistemi, yıldız/hedef skor mekaniği, sahne geçiş efektleri, ses yönetimi ve ödüllü reklam entegrasyonu (AdMob'a hazır, SDK kurulmadan da çalışır) gibi tam bir mobil oyunun parçalarını barındırır.
 
-![Match3](/GameDemo/match3.png)
-
-![Match3 - Finished Level](/GameDemo/match3Final.png)
 
 ## İçindekiler
 
