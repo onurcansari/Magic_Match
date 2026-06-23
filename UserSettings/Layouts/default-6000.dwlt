@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 116
+  controlID: 16
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 38
+  controlID: 17
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 39
+  controlID: 18
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -271,8 +271,8 @@ MonoBehaviour:
     y: 0
     width: 1106
     height: 553
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
@@ -608,7 +608,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Textures/UI
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -618,7 +618,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Textures/UI
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Asus\Match3-Game-in-Unity
   m_LockTracker:
@@ -627,12 +627,13 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 39074
+    - m_Data: 39432
     m_LastClickedID:
-      m_Data: 39074
+      m_Data: 39432
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 38970
+    - m_Data: 39084
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -696,9 +697,10 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: []
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 38868
+    - m_Data: 38916
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -824,32 +826,8 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -33230
-      - m_Data: -33172
-      - m_Data: -32368
-      - m_Data: -32006
-      - m_Data: -31644
-      - m_Data: -31282
-      - m_Data: -30920
-      - m_Data: -30558
-      - m_Data: -30196
-      - m_Data: -29834
-      - m_Data: -29472
-      - m_Data: -29110
-      - m_Data: -28748
-      - m_Data: -28386
-      - m_Data: -28024
-      - m_Data: -27662
-      - m_Data: -27300
-      - m_Data: -26938
-      - m_Data: -26576
-      - m_Data: -26214
-      - m_Data: -25852
-      - m_Data: -25476
-      - m_Data: -25470
-      - m_Data: -25462
-      - m_Data: -25436
       - m_Data: -1316
+      - m_Data: 38684
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
